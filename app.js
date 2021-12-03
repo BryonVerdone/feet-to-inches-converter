@@ -7,3 +7,9 @@ function convert() {
   // display value
   document.getElementById('inches').innerText = inches;
 }
+const answer = document.getElementById('inches');
+const btn = document.getElementById('convert');
+
+btn.addEventListener('click', function () {
+  answer.classList.add('green');
+});
